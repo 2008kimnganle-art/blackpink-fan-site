@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+       <title>BLACKPINK Fan Website</title>
+
+	   <style> 
+	      body {
+                margin: 0;
+				background-color: #000000;
+				font-family: Arial;
+				}
+
+		header {
+				text-align: center;
+				border-top: 5px solid #ff69b4;
+				border-bottom: 5px solid #ff69b4;
+				}
+
+		.banner {
+				background-image: url("pink.jpg");
+				height: 150px;
+				background-size: cover;
+				background-position: center;
+				}
+		.banner h1 {
+				color: #ff69b4;
+				text-shadow:
+				0 0 10px #ff69b4,
+				0 0 16px #ff1493;
+				text-align: center;
+				margin : 0;
+				padding-top : 40px;
+				}
+
+		p {
+			    color: #ffc0cb;
+				text-shadow: 0 0 5px #ff69b4;
+				}
+		footer { 
+		        text-align: center;
+				border-top: 5px solid #000000;
+				color : #000000;
+				text-shadow : 0 0 3px #000000;
+				background-color : #ff69b4;
+				height :70px;
+				}
+		main {
+				max-width: 1100px;
+				margin: 60px auto;
+				padding: 0 20px;
+				}
+
+	/* CARD */
+		.card {
+		background: rgba(255, 105, 180, 0.06);
+		border-left: 5px solid #ff69b4;
+		padding: 25px;
+		margin-bottom: 50px;
+		transition: 0.3s ease;
+			}
+
+	/* HOVER CARD */
+		.card:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 0 25px rgba(255, 105, 180, 0.4);
+		}
+
+	/* TITLE */
+		.card h2 {
+		color: #ff69b4;
+		text-shadow:
+			0 0 8px #ff69b4,
+			0 0 16px #ff1493;
+		margin-bottom: 20px;
+			}
+
+	/* TEXT */
+	.card p,
+	.card li {
+		color: #ffc0cb;
+		line-height: 1.8;
+		}
+
+	/* LIST */
+	.card ul {
+	padding-left: 20px;
+		}
+
+	/* GALLERY */
+	.gallery {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 20px;
+			}
+
+	/* IMAGE */
+	.gallery img {
+			width: 100%;
+			height: 260px;
+			object-fit: cover;
+			border-radius: 10px;
+			transition: 0.3s ease;
+			}
+
+	/* HOVER IMAGE */
+	.gallery img:hover {
+			transform: scale(1.05);
+			box-shadow: 0 0 20px #ff69b4;
+			}
+			
+       </style>
+   </head>
+   <body> 
+        <header>
+		  <div class ="banner">
+		  
+		    <h1> BLACKPINK'S GALLERY </h1>
+		    <p> Trang trưng bày dành cho người hâm mộ của nhóm nhạc BLACKPINK 🖤💗 </p>
+		  </div>
+		</header>
+		
+		<main>
+		   
+  <!-- TIỂU SỬ -->
+			<section class="card">
+				<h2>Tiểu sử</h2>
+				<p>
+				BLACKPINK là nhóm nhạc nữ Hàn Quốc trực thuộc YG Entertainment,
+				ra mắt năm 2016 với 4 thành viên: Jisoo, Jennie, Rosé và Lisa.
+				Nhóm nổi tiếng với phong cách mạnh mẽ và tầm ảnh hưởng toàn cầu.
+				</p>
+			</section>
+
+  <!-- ALBUM -->
+			<section class="card">
+				<h2>Album đã phát hành</h2>
+				<ul>
+					<li>Square One (2016)</li>
+					<li>Square Two (2016)</li>
+					<li>Kill This Love (2019)</li>
+					<li>The Album (2020)</li>
+					<li>BORN PINK (2022)</li>
+				</ul>
+			</section>
+
+  <!-- THÀNH TÍCH -->
+			<section class="card">
+				<h2>Thành tích đã đạt được</h2>
+				<ul>
+					<li>Nhóm nữ K-pop dẫn đầu về số lượt đằng ký kênh trên YOUTUBE</li>
+					<li>Nhóm nhạc nữ K-POP sở hữu số lượt nghe nhạc hàng tháng cao nhất trên nền tảng Spotify</li>
+					<li>Billboard 200: Là nhóm nhạc nữ K-pop đầu tiên đứng đầu bảng xếp hạng này với album Born Pink.</li>
+					<li>Giải thưởng: Vượt qua 600 giải thưởng trong sự nghiệp (tính cả cá nhân và nhóm), 
+					    là nhóm nhạc nữ giành nhiều giải thưởng nhất thế giới tính đến 2025.</li>
+				</ul>
+			</section>
+		
+  <!-- HOẠT ĐỘNG -->
+			<section class="card">
+				<h2>Hoạt động gần đây</h2>
+				<p>
+				Trong năm 2025-2026, BLACKPINK tập trung mạnh vào các dự án solo sau khi gia hạn hợp đồng nhóm với YG Entertainment, 
+				đồng thời rục rịch trở lại với mini album "Deadline" (dự kiến phát hành 27/2/2026) và chuyến lưu diễn toàn cầu [Born Pink] tiếp theo. 
+				Các thành viên đều hoạt động năng nổ: Lisa phát hành album solo, Jennie thành lập công ty riêng và ra mắt nhạc mới, 
+				Rosé đầu quân cho The Black Label, còn Jisoo tập trung diễn xuất. .
+				</p>
+			</section>
+
+  <!-- GALLERY -->
+			<section class="card">
+					<h2>Gallery</h2>
+				<div class="gallery">
+					<img src="jisoo.jpg" alt="Jisoo">
+					<img src="jennie.jpg" alt="Jennie">
+					<img src="rose.jpg" alt="Rosé">
+					<img src="lisa.jpg" alt="Lisa">
+				</div>
+			</section>
+
+		</main>
+		
+		<footer>
+		    2026 BLACKPINK Fanmade | Made by KIM NGAN!🖤💗
+		</footer>
+	
+   </body>
+</html>
+
+   
+  
